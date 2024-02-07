@@ -2,6 +2,11 @@
 <!-- <div class="relative mx-auto max-w-prose overflow-hidden bg-white py-16 px-4 sm:px-6 lg:px-8">
 	<slot />
 </div> -->
+<script>
+    import { page } from '$app/stores';  
+    let url = $page.url.pathname;
+    const checkURL = "Data-Science";
+</script>
 <div class="post" data-sveltekit-reload>
     <ul class="menu bg-base-200 w-56 rounded-box ml-4">
         <li>
@@ -9,16 +14,32 @@
             <ul>
                 <li><a href="/Fundamentals/Enviroment">Enviroment Setup</a></li>
                 <li>
-                    <details open>
-                        <summary>Data Science</summary>
-                        <ul>
-                            <li><a href="/Fundamentals/Data-Science/Intro">Intro to Data Science</a></li>
-                            <li><a href="/Fundamentals/Data-Science/DS-Vocabulary">Data Science Vocabulary</a></li>
-                            <li><a href="/Fundamentals/Data-Science/Pipeline">The Data Science Pipeline</a></li>
-                            <li><a href="/Fundamentals/Data-Science/Pipeline-Demo">Pipeline Demo</a></li>
-                            <li><a href="/Fundamentals/Data-Science/Project">Project</a></li>
-                        </ul>
-                    </details>
+                    <!-- ADHD quality of life if statement
+                    basically if under Fundamentals/data-science
+                    parent is open else it is closed -->
+                    {#if url.includes(checkURL)} 
+                        <details open>
+                            <summary>Data Science</summary>
+                            <ul>
+                                <li><a href="/Fundamentals/Data-Science/Intro">Intro to Data Science</a></li>
+                                <li><a href="/Fundamentals/Data-Science/DS-Vocabulary">Data Science Vocabulary</a></li>
+                                <li><a href="/Fundamentals/Data-Science/Pipeline">The Data Science Pipeline</a></li>
+                                <li><a href="/Fundamentals/Data-Science/Pipeline-Demo">Pipeline Demo</a></li>
+                                <li><a href="/Fundamentals/Data-Science/Project">Project</a></li>
+                            </ul>
+                        </details>
+                    {:else}
+                        <details>
+                            <summary>Data Science</summary>
+                            <ul>
+                                <li><a href="/Fundamentals/Data-Science/Intro">Intro to Data Science</a></li>
+                                <li><a href="/Fundamentals/Data-Science/DS-Vocabulary">Data Science Vocabulary</a></li>
+                                <li><a href="/Fundamentals/Data-Science/Pipeline">The Data Science Pipeline</a></li>
+                                <li><a href="/Fundamentals/Data-Science/Pipeline-Demo">Pipeline Demo</a></li>
+                                <li><a href="/Fundamentals/Data-Science/Project">Project</a></li>
+                            </ul>
+                        </details>
+                    {/if}
                 </li>
                 <li><a href="/Fundamentals/Git">Git</a></li>
             </ul>
