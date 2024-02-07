@@ -1,11 +1,14 @@
 <!-- src/routes/[slug]/+page.svelte -->
 <script>
 	export let data;
+	const { title, slug, Content } = data;
 </script>
-<!-- <article>
-	<h1>{data.title}</h1>
-	<svelte:component this={data.content} />
-</article> -->
-<div class="prose prose-lg">
-    <svelte:component this={data.content} />
-</div>
+
+<h1 class="text-3xl bold mb-5">
+	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+	{title}
+</h1>
+
+<article class="prose prose-lg">
+	<Content />
+</article>
