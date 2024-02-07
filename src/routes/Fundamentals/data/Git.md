@@ -1,6 +1,8 @@
 ---
 title: Git
 slug: Git
+parent:
+order: 7
 ---
 
 # Version Control with Git
