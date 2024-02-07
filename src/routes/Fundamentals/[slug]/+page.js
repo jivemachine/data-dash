@@ -1,11 +1,11 @@
-// src/routes/blog/[slug]/+page.js
+// src/routes/Fundamentals/[slug]/+page.js
 export async function load({ params }) {
-	const post = await import(`../${params.slug}.md`);
+	const post = await import(`../data/${params.slug}.md`);
 	const { title, slug } = post.metadata;
-	const content = post.default;
+	const Content = post.default;
 
 	return {
-		content,
+		Content,
 		title,
         slug
 	};
