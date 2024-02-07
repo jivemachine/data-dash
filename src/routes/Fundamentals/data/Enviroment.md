@@ -1,6 +1,8 @@
 ---
 title: Enviroment Setup
 slug: Enviroment
+parent: 
+order: 1
 ---
 - Environmental Setup
     

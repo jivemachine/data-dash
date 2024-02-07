@@ -2,6 +2,7 @@
 title: Project
 slug: Project
 parent: Data-Science
+order: 6
 ---
     
     # Data Science: Skills In Demand

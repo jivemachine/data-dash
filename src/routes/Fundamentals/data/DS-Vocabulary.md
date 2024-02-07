@@ -2,6 +2,7 @@
  title: Data Science Vocabulary
  slug: DS-Vocabulary
  parent: Data-Science
+ order: 3
 ---
     
     ## Foundational Vocabulary of Data Science

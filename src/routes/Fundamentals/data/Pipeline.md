@@ -2,6 +2,7 @@
 title: Data Science Pipeline
 slug: Pipeline
 parent: Data-Science
+order: 4
 ---
 
 - [Pipeline Video](https://www.canva.com/design/DAFwNrjl1Z0/zfJg450njdjmp0zmtsWZOQ/view?utm_content=DAFwNrjl1Z0&utm_campaign=designshare&utm_medium=link&utm_source=viewer)

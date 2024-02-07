@@ -2,7 +2,7 @@
 title: Pipeline Demo
 slug: Pipeline-Demo
 parent: Data-Science
-
+order: 5
 ---
 
 - Pipeline Demo
