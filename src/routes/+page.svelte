@@ -63,29 +63,3 @@
 		</div>
 	{/if}
 </main>
-
-<style>
-	.centered {
-		position: absolute;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%, -50%);
-	}
-
-	span {
-		position: absolute;
-		transform: translate(-50%, -50%);
-		font-size: 4em;
-	}
-
-	.marqueeDiv {
-		width: 100%;
-		margin-top: 10rem;
-	}
-
-	.party-button {
-		width: 100%;
-		margin-left: 40rem;
-		margin-top: 5rem;
-	}
-</style>
