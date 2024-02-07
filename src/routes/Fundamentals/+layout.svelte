@@ -20,6 +20,7 @@
                         </ul>
                     </details>
                 </li>
+                <li><a href="/Fundamentals/Git">Git</a></li>
             </ul>
         </li>
     </ul>
