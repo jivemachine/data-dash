@@ -9,6 +9,6 @@
 	{title}
 </h1>
 
-<article class="prose prose-lg">
-	<Content />
+<article class="prose prose-lg prose-headings:underline prose-a:no-underline prose-a:link-primary hover:prose-a:underline prose-img:rounded-xl">
+    <Content />
 </article>

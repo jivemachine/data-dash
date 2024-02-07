@@ -23,7 +23,7 @@
             </ul>
         </li>
     </ul>
-    <main class="relative mx-5 bg-white py-16 px-4 sm:px-6 lg:px-8">
+    <main class="relative mx-5 py-16 px-4 sm:px-6 lg:px-8">
         <slot />
     </main>
 </div>
