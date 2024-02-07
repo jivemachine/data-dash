@@ -1,4 +1,4 @@
-<!-- src/routes/[slug]/+page.svelte -->
+<!-- src/routes/Fundamentals/[slug]/+page.svelte -->
 <script>
 	export let data;
 	const { title, slug, Content } = data;
