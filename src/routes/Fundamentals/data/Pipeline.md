@@ -1,6 +1,7 @@
 ---
 title: Data Science Pipeline
 slug: Pipeline
+category: Fundamentals
 parent: Data-Science
 order: 4
 ---

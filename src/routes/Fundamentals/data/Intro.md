@@ -1,6 +1,7 @@
 ---
 title: Intro to Data Science
 slug: Intro
+category: Fundamentals
 parent: Data-Science
 order: 2
 ---

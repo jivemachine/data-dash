@@ -1,6 +1,7 @@
 ---
 title: Pipeline Demo
 slug: Pipeline-Demo
+category: Fundamentals
 parent: Data-Science
 order: 5
 ---

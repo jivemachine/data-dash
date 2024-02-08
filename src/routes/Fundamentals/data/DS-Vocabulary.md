@@ -1,6 +1,7 @@
 ---
  title: Data Science Vocabulary
  slug: DS-Vocabulary
+ category: Fundamentals
  parent: Data-Science
  order: 3
 ---

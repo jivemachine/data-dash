@@ -1,6 +1,7 @@
 ---
 title: Project
 slug: Project
+category: Fundamentals
 parent: Data-Science
 order: 6
 ---

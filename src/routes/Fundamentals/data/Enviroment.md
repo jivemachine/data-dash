@@ -1,6 +1,7 @@
 ---
 title: Enviroment Setup
 slug: Enviroment
+category: Fundamentals
 parent: 
 order: 1
 ---

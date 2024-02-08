@@ -1,6 +1,7 @@
 ---
 title: Git
 slug: Git
+category: Fundamentals
 parent:
 order: 7
 ---
