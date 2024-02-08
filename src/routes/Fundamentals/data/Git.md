@@ -3,7 +3,7 @@ title: Git
 slug: Git
 category: Fundamentals
 parent:
-order: 7
+order: 11
 ---
 
 # Version Control with Git
