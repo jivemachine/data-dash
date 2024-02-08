@@ -5,7 +5,8 @@
 <script>
     import { page } from '$app/stores';  
     let url = $page.url.pathname;
-    const checkURL = "Data-Science";
+    const dsURL = "Data-Science";
+    const cmdURL = "Command-Line";
 </script>
 <div class="post" data-sveltekit-reload>
     <ul class="menu bg-base-200 w-56 rounded-box ml-4">
@@ -17,7 +18,7 @@
                     <!-- ADHD quality of life if statement
                     basically if under Fundamentals/data-science
                     parent is open else it is closed -->
-                    {#if url.includes(checkURL)} 
+                    {#if url.includes(dsURL)} 
                         <details open>
                             <summary>Data Science</summary>
                             <ul>
@@ -39,8 +40,32 @@
                                 <li><a href="/Fundamentals/Data-Science/Project">Project</a></li>
                             </ul>
                         </details>
-                    {/if}
+                    {/if}  
                 </li>
+                <li>
+                    {#if url.includes(cmdURL)}
+                        <details open>
+                            <summary>Command Line</summary>
+                            <ul>
+                                <li><a href="/Fundamentals/Command-Line/Cmd-Intro">Intro to Command Line</a></li>
+                                <li><a href="/Fundamentals/Command-Line/Nav-File-System">Navigating the File System</a></li>
+                                <li><a href="/Fundamentals/Command-Line/Creating-Moving">Creating and Moving</a></li>
+                                <li><a href="/Fundamentals/Command-Line/More-Cmd-Line">More Command Line</a></li>
+                            </ul>
+                        </details>
+                    {:else}
+                    <details>
+                        <summary>Command Line</summary>
+                        <ul>
+                            <li><a href="/Fundamentals/Command-Line/Cmd-Intro">Intro to Command Line</a></li>
+                            <li><a href="/Fundamentals/Command-Line/Nav-File-System">Navigating the File System</a></li>
+                            <li><a href="/Fundamentals/Command-Line/Creating-Moving">Creating and Moving</a></li>
+                            <li><a href="/Fundamentals/Command-Line/More-Cmd-Line">More Command Line</a></li>
+                        </ul>
+                    </details>
+                    {/if}
+                    </li>
+
                 <li><a href="/Fundamentals/Git">Git</a></li>
             </ul>
         </li>
