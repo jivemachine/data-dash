@@ -21,22 +21,22 @@
                         <details open>
                             <summary>SQL</summary>
                             <ul>
-                                <li><a href="/Tools/SQL/Intro">Intro to Data Science</a></li>
-                                <li><a href="/Tools/SQL/DS-Vocabulary">Data Science Vocabulary</a></li>
-                                <li><a href="/Tools/SQL/Pipeline">The Data Science Pipeline</a></li>
-                                <li><a href="/Tools/SQL/Pipeline-Demo">Pipeline Demo</a></li>
-                                <li><a href="/Tools/SQL/Project">Project</a></li>
+                                <li><a href="/Tools/SQL/Overview">Overview</a></li>
+                                <!-- <li><a href="/Tools/SQL/DS-Vocabulary">Data Science Vocabulary</a></li> -->
+                                <!-- <li><a href="/Tools/SQL/Pipeline">The Data Science Pipeline</a></li> -->
+                                <!-- <li><a href="/Tools/SQL/Pipeline-Demo">Pipeline Demo</a></li> -->
+                                <!-- <li><a href="/Tools/SQL/Project">Project</a></li> -->
                             </ul>
                         </details>
                     {:else}
                     <details>
                         <summary>SQL</summary>
                         <ul>
-                            <li><a href="/Tools/SQL/Intro">Intro to Data Science</a></li>
-                            <li><a href="/Tools/SQL/DS-Vocabulary">Data Science Vocabulary</a></li>
+                            <li><a href="/Tools/SQL/Overview">Overview</a></li>
+                            <!-- <li><a href="/Tools/SQL/DS-Vocabulary">Data Science Vocabulary</a></li>
                             <li><a href="/Tools/SQL/Pipeline">The Data Science Pipeline</a></li>
                             <li><a href="/Tools/SQL/Pipeline-Demo">Pipeline Demo</a></li>
-                            <li><a href="/Tools/SQL/Project">Project</a></li>
+                            <li><a href="/Tools/SQL/Project">Project</a></li> -->
                         </ul>
                     </details>
                     {/if}  
