@@ -6,6 +6,7 @@
       <a class="link link-hover" href="/Contact">Contact</a>
       <a class="link link-hover" href="https://www.reddit.com/r/ProgrammerHumor/">Memes</a>
       <a class="link link-hover" href="https://pixelastic.github.io/pokemonorbigdata/">Pokemon or Big Data?</a>
+      <a class="linl link-hover" href="/Resources">Old Curriculum PDF</a>
     </nav> 
     <!-- <nav>
       <h6 class="footer-title">Company</h6> 
