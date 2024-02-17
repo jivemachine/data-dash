@@ -404,7 +404,7 @@ Create:
     
     <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_9.png" />
     
-## **Planning**
+    ## **Planning**
     
     Business stakeholders and end users often ask more general questions that are very hard to answer directly or extremely specific questions that are not going to achieve their underlying goal. This leads to miscommunication, time spent on work that is ultimately thrown away, or inadequate understanding of the underlying problem being investigated. As you gain experience with the data and domain, you gain a better understanding of problems and can ask more informative & specialized questions. Even then, however, it is important to work through this planning stage, as it is all too easy to get lost down a rabbit hole when working on a data science project.
     
@@ -538,26 +538,26 @@ Create:
     
     Here we will acquire data from a cloud SQL database. The connection details are hidden in the `env` python module, and you can see the SQL query used in the cell below.
     
- ```python
- import numpy as np
- import pandas as pd
- 
- import seaborn as sns
- import matplotlib.pyplot as plt
- 
- import re
- import scipy.stats as stats
- 
- from sklearn.model_selection import train_test_split
- from sklearn.tree import DecisionTreeClassifier, plot_tree
- 
- import warnings
- warnings.filterwarnings("ignore")
- 
- import env
- ```
+    ```python
+    import numpy as np
+    import pandas as pd
     
+    import seaborn as sns
+    import matplotlib.pyplot as plt
+    
+    import re
+    import scipy.stats as stats
+    
+    from sklearn.model_selection import train_test_split
+    from sklearn.tree import DecisionTreeClassifier, plot_tree
+    
+    import warnings
+    warnings.filterwarnings("ignore")
+    
+    import env
     ```
+    
+    ```python
     url = f'mysql+pymysql://{env.user}:{env.password}@{env.host}/telco_churn'
     
     query = '''
@@ -936,7 +936,7 @@ Create:
     
     H(a): contract type does affect churn
     
-    <!-- ```python
+    ```python
     observed = pd.crosstab(train.contract_type, train.churn,)
     chi2, p, degf, expected = stats.chi2_contingency(observed)
     
@@ -944,7 +944,7 @@ Create:
         print("We reject the null hypothesis")
     else:
         print("We fail to reject the null hypothesis")
-    ``` -->
+    ```
     
     ```
     We reject the null hypothesis
@@ -1912,7 +1912,7 @@ Now we can tell git that we should use this file to globally ignore files.
     - Paste the SSH git address of your repository (`command V`)
     - Hit enter
     
-   <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_20.png" />
+    <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_20.png" />
     
 3. Verify that the repo was cloned down
     - Run `ls`
@@ -2035,7 +2035,7 @@ Let's setup an existing repository from GitHub on a local device
 5. Let's simulate restoring your work from GitHub.
     - Inside of GitHub, click Code and then copy the SSH git clone address to your clipboard.
     
-   <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_22.png" />
+    <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_22.png" />
     
     - From `~/codeup-data-science`, type `git clone`, space, and then paste the ssh clone address.
     - Now type `ls -la`. Do you see a new local copy of the repo?
