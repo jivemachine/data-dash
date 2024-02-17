@@ -5,6 +5,9 @@ category: Fundamentals
 parent: Data-Science
 order: 2
 ---
+<script>
+    import { CldImage } from 'svelte-cloudinary';
+</script>
 
 - [Intro Video](https://www.canva.com/design/DAFs2wibvG4/06VSmKyZnxLzWOiSBulvbQ/view?utm_content=DAFs2wibvG4&utm_campaign=designshare&utm_medium=link&utm_source=viewer)
 
@@ -14,11 +17,11 @@ order: 2
 
 **Data Science, as understood through the skills used**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/28b39b88-3cb1-4509-938a-d4456bca6a2c/Untitled.png)
+<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled.png" />
 
 **Data Science, as understood through its process**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/472c3b42-5622-43ed-b377-a2737b0f3e42/Untitled.png)
+<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_1.png" />
 
 Video:
 
@@ -43,7 +46,7 @@ Data Science is often equated with the topics below, but is not equal to any one
 - Statistics is used in data science, but it is only a small part of it.
 - Machine learning turns this process around. Given a large trove of data, the computer taunts us by saying "If only you knew what question to ask me, I would give you some very interesting answers based on the data!"
     
-    **[1](https://ds.codeup.com/fundamentals/intro-to-data-science/#fn:1)**
+    **[1](https://codedown.vercel.app/Fundamentals/Data-Science/Intro/#fn:1)**
     
 
 *DS != Business Analysis*
@@ -88,7 +91,7 @@ Video: [Data Science for Social Good](https://www.youtube.com/watch?v=8RX1BCjJl
 
 You will find in the image below how your learning of data science will be structured at Codeup, which starts with basic skills, walks through the primary machine learning methodologies, and ending with application of it all in a capstone.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/b3db0b6f-9cd8-45c4-b963-ef418de61a08/Untitled.png)
+<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_2.png" />
 
 ## Five Questions Machine Learning Methods Can Answer:
 
@@ -100,7 +103,7 @@ You will find in the image below how your learning of data science will be struc
 
 ## Key Concepts in Data Science
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/478fa372-955d-416e-99d8-6d5ff8c9e829/Untitled.png)
+<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_3.png" />
 
 ## Types of Machine Learning Methods
 
@@ -135,7 +138,7 @@ You will find in the image below how your learning of data science will be struc
     - The model is then used to predict outcomes of new observations.
     - "Capable of generalizing information from large data sets as well as detecting and extrapolating patterns to apply information to new solutions and actions."
         
-        **[2](https://ds.codeup.com/fundamentals/intro-to-data-science/#fn:4)**
+        **[2](https://codedown.vercel.app/Fundamentals/Data-Science/Intro#fn:4)**
         
 - Artificial Intelligence (AI)
     - Began in the 1950s as the programming of computers to perform simple human tasks.
@@ -172,7 +175,7 @@ You will find in the image below how your learning of data science will be struc
 
 ## Skills of a Data Scientist
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/799bcf43-b431-49eb-84d5-c4e35fb9f0b0/Untitled.png)
+<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_4.png" />
 
 Source:
 
@@ -201,11 +204,11 @@ What [D.J. Patil](https://www.linkedin.com/in/dpatil/), former U.S. Chief Data 
 
 ### **2009**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/8e8eabba-cdb1-4df5-8b63-7ef7f7d9043e/Untitled.png)
+<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_5.png" />
 
 ### **2019**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/940e3cb8-1ff1-416e-a37f-f7f9961b444b/Untitled.png)
+<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_6.png" />
 
 ### Programming Languages
 
@@ -309,7 +312,7 @@ Important when working in a team that handles the same scripts and project files
 
 ---
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/bf2bbada-3966-41c8-b3ae-6732d2fe04d5/Untitled.png)
+<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_7.png" />
 
 Alex Fly, Founder and CEO @ Quickpath, on [Trends Shaping the Data Science Hiring Market](https://www.linkedin.com/pulse/what-trends-shaping-data-science-hiring-market-alex-fly)
 
@@ -327,7 +330,7 @@ Alex Fly, Founder and CEO @ Quickpath, on [Trends Shaping the Data Science Hiri
     - Hiring a data science team that incorporates members of the business side, the IT side, and data specialists.
 - AI, ML and DL.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/aa7e17b1-badb-4b66-ba04-25716ef6f4d2/Untitled.png)
+<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_8.png" />
 
 ## Further Reading
 
@@ -399,9 +402,9 @@ Create:
     
     # Data Science Pipeline
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/9d69d8f1-56fb-4f17-8879-7bb6189627ec/Untitled.png)
+    <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_9.png" />
     
-    ## **Planning**
+## **Planning**
     
     Business stakeholders and end users often ask more general questions that are very hard to answer directly or extremely specific questions that are not going to achieve their underlying goal. This leads to miscommunication, time spent on work that is ultimately thrown away, or inadequate understanding of the underlying problem being investigated. As you gain experience with the data and domain, you gain a better understanding of problems and can ask more informative & specialized questions. Even then, however, it is important to work through this planning stage, as it is all too easy to get lost down a rabbit hole when working on a data science project.
     
@@ -535,26 +538,26 @@ Create:
     
     Here we will acquire data from a cloud SQL database. The connection details are hidden in the `env` python module, and you can see the SQL query used in the cell below.
     
-    ```python
-    import numpy as np
-    import pandas as pd
+ ```python
+ import numpy as np
+ import pandas as pd
+ 
+ import seaborn as sns
+ import matplotlib.pyplot as plt
+ 
+ import re
+ import scipy.stats as stats
+ 
+ from sklearn.model_selection import train_test_split
+ from sklearn.tree import DecisionTreeClassifier, plot_tree
+ 
+ import warnings
+ warnings.filterwarnings("ignore")
+ 
+ import env
+ ```
     
-    import seaborn as sns
-    import matplotlib.pyplot as plt
-    
-    import re
-    import scipy.stats as stats
-    
-    from sklearn.model_selection import train_test_split
-    from sklearn.tree import DecisionTreeClassifier, plot_tree
-    
-    import warnings
-    warnings.filterwarnings("ignore")
-    
-    import env
     ```
-    
-    ```python
     url = f'mysql+pymysql://{env.user}:{env.password}@{env.host}/telco_churn'
     
     query = '''
@@ -660,7 +663,7 @@ Create:
     plt.show()
     ```
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/3cd2a08f-9fe2-41e7-b006-a016c2c739e8/Untitled.png)
+    <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_10.png" />
     
     What percent of our customers are currently churning?
     
@@ -933,7 +936,7 @@ Create:
     
     H(a): contract type does affect churn
     
-    ```python
+    <!-- ```python
     observed = pd.crosstab(train.contract_type, train.churn,)
     chi2, p, degf, expected = stats.chi2_contingency(observed)
     
@@ -941,7 +944,7 @@ Create:
         print("We reject the null hypothesis")
     else:
         print("We fail to reject the null hypothesis")
-    ```
+    ``` -->
     
     ```
     We reject the null hypothesis
@@ -958,7 +961,7 @@ Create:
     plt.show()
     ```
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/8e96bff8-8902-4450-ab1d-9499bdc2d26f/Untitled.png)
+    <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_11.png" />
     
     It definitely seems like the median monthly charge is higher for customers that have churned compared to those that haven't.
     
@@ -998,7 +1001,7 @@ Create:
     plt.show()
     ```
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/4ae267a3-d5b6-4ddd-a45f-05fc5b215508/Untitled.png)
+    <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_12.png" />
     
     While there might be some small difference, it seems like gender does not play a significant role in whether or not a customer will churn.
     
@@ -1116,7 +1119,7 @@ Create:
     plt.show()
     ```
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/4d61c5a2-ca99-4f9d-a13d-01f5d44c729d/Untitled.png)
+    <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_13.png" />
     
     - Traditional: given rule + data, produce answer
     - ML: given data + answers, produce rules
@@ -1780,15 +1783,15 @@ Git can be thought of as a permanent record with a time machine and parallel uni
 
 Git is a permanent record for source code
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/86666827-5852-4b13-b700-67b9ba324137/Untitled.png)
+<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_14.png" />
 
 with a time machine
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/7ceaab98-7a97-4f38-80a2-a744fa619beb/Untitled.png)
+<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_15.png" />
 
 and parallel universes
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/7856d547-83cc-4244-99d4-c0318304e02f/Untitled.png)
+<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_16.png" />
 
 > "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency." - Git documentation
 > 
@@ -1823,7 +1826,7 @@ Each different version of source code or documentation is a different body of fa
 4. Clone the repository that was created on github.com
 5. Verify that the repo was cloned down
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/61e6ab03-ce53-46ad-b3c1-bfce26138435/Untitled.png)
+<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_17.png" />
 
 ### Local-device-first approach
 
@@ -1841,7 +1844,7 @@ Here's the short version for your regular, daily Git workflow:
 3. Commit your work with message `git commit -m "adding this file"`
 4. Push your work with `git push` (this uploads all new commits to GitHub)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/d1444b2c-2258-4b7e-89d9-826b023bd637/Untitled.png)
+<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_18.png" />
 
 > If your code ain't in GitHub then it doesn't exist. Always add, commit, and push your work, every day.
 > 
@@ -1898,7 +1901,7 @@ Now we can tell git that we should use this file to globally ignore files.
     - Ignore all the checkboxes
 2. Once the repository is set up, copy the SSH link to your clipboard.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/e273ac80-9681-4906-95e7-33303faac3b9/Untitled.png)
+<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_19.png" />
 
 1. Create a folder to hold all your codeup work and switch to it
     - Open up your terminal
@@ -1909,7 +1912,7 @@ Now we can tell git that we should use this file to globally ignore files.
     - Paste the SSH git address of your repository (`command V`)
     - Hit enter
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/7afd2b5a-23b7-4998-9ef9-fe0a3d441eb2/Untitled.png)
+   <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_20.png" />
     
 3. Verify that the repo was cloned down
     - Run `ls`
@@ -2017,7 +2020,7 @@ Congratulations! You've made a repository, done work, added, committed, and push
 8. In your browser, refresh your `Hello_World` repository page.
     - Click the icon that shows the number of commits in this repository
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/6a131433-a110-44da-b900-9fb82760f851/Untitled.png)
+    <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_21.png" />
     
 9. Compare the results of your terminal's `git log` with what GitHub shows.
 
@@ -2032,7 +2035,7 @@ Let's setup an existing repository from GitHub on a local device
 5. Let's simulate restoring your work from GitHub.
     - Inside of GitHub, click Code and then copy the SSH git clone address to your clipboard.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0ef103c-137a-4cff-b4bb-e0081a6042f3/fbf7ad27-117a-417e-ae77-01fd1a1cb5dd/Untitled.png)
+   <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_22.png" />
     
     - From `~/codeup-data-science`, type `git clone`, space, and then paste the ssh clone address.
     - Now type `ls -la`. Do you see a new local copy of the repo?
