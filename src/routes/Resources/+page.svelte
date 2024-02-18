@@ -8,5 +8,4 @@
     scale={1.8}
     showButtons={["navigation", "zoom", "print", "rotate", "download", "autoflip", "timeInfo", "pageInfo"]}
     showBorder={true}
-
 />
