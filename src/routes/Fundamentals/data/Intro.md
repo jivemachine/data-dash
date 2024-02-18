@@ -5,6 +5,9 @@ category: Fundamentals
 parent: Data-Science
 order: 2
 ---
+<script>
+    import { CldImage } from 'svelte-cloudinary';
+</script>
 
 
 - [Intro Video](https://www.canva.com/design/DAFs2wibvG4/06VSmKyZnxLzWOiSBulvbQ/view?utm_content=DAFs2wibvG4&utm_campaign=designshare&utm_medium=link&utm_source=viewer)
