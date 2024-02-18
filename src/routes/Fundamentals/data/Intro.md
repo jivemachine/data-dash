@@ -15,11 +15,11 @@ order: 2
 
 **Data Science, as understood through the skills used**
 
-<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled.png" />
+
 
 **Data Science, as understood through its process**
 
-<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_1.png" />
+
 
 Video:
 
@@ -89,7 +89,7 @@ Video: [Data Science for Social Good](https://www.youtube.com/watch?v=8RX1BCjJl
 
 You will find in the image below how your learning of data science will be structured at Codeup, which starts with basic skills, walks through the primary machine learning methodologies, and ending with application of it all in a capstone.
 
-<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_2.png" />
+
 
 ## Five Questions Machine Learning Methods Can Answer:
 
@@ -101,7 +101,7 @@ You will find in the image below how your learning of data science will be struc
 
 ## Key Concepts in Data Science
 
-<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_3.png" />
+
 
 ## Types of Machine Learning Methods
 
@@ -173,7 +173,7 @@ You will find in the image below how your learning of data science will be struc
 
 ## Skills of a Data Scientist
 
-<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_4.png" />
+
 
 Source:
 
@@ -202,11 +202,11 @@ What [D.J. Patil](https://www.linkedin.com/in/dpatil/), former U.S. Chief Data 
 
 ### **2009**
 
-<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_5.png" />
+
 
 ### **2019**
 
-<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_6.png" />
+
 
 ### Programming Languages
 
@@ -310,7 +310,7 @@ Important when working in a team that handles the same scripts and project files
 
 ---
 
-<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_7.png" />
+
 
 Alex Fly, Founder and CEO @ Quickpath, on [Trends Shaping the Data Science Hiring Market](https://www.linkedin.com/pulse/what-trends-shaping-data-science-hiring-market-alex-fly)
 
@@ -328,7 +328,7 @@ Alex Fly, Founder and CEO @ Quickpath, on [Trends Shaping the Data Science Hiri
     - Hiring a data science team that incorporates members of the business side, the IT side, and data specialists.
 - AI, ML and DL.
 
-<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_8.png" />
+
 
 ## Further Reading
 
@@ -400,7 +400,7 @@ Create:
     
     # Data Science Pipeline
     
-    <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_9.png" />
+    
     
     ## **Planning**
     
@@ -661,7 +661,7 @@ Create:
     plt.show()
     ```
     
-    <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_10.png" />
+    
     
     What percent of our customers are currently churning?
     
@@ -959,7 +959,7 @@ Create:
     plt.show()
     ```
     
-    <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_11.png" />
+    
     
     It definitely seems like the median monthly charge is higher for customers that have churned compared to those that haven't.
     
@@ -999,7 +999,7 @@ Create:
     plt.show()
     ```
     
-    <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_12.png" />
+    
     
     While there might be some small difference, it seems like gender does not play a significant role in whether or not a customer will churn.
     
@@ -1117,7 +1117,7 @@ Create:
     plt.show()
     ```
     
-    <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_13.png" />
+    
     
     - Traditional: given rule + data, produce answer
     - ML: given data + answers, produce rules
@@ -1781,15 +1781,15 @@ Git can be thought of as a permanent record with a time machine and parallel uni
 
 Git is a permanent record for source code
 
-<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_14.png" />
+
 
 with a time machine
 
-<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_15.png" />
+
 
 and parallel universes
 
-<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_16.png" />
+
 
 > "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency." - Git documentation
 > 
@@ -1824,7 +1824,7 @@ Each different version of source code or documentation is a different body of fa
 4. Clone the repository that was created on github.com
 5. Verify that the repo was cloned down
 
-<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_17.png" />
+
 
 ### Local-device-first approach
 
@@ -1842,7 +1842,7 @@ Here's the short version for your regular, daily Git workflow:
 3. Commit your work with message `git commit -m "adding this file"`
 4. Push your work with `git push` (this uploads all new commits to GitHub)
 
-<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_18.png" />
+
 
 > If your code ain't in GitHub then it doesn't exist. Always add, commit, and push your work, every day.
 > 
@@ -1899,7 +1899,7 @@ Now we can tell git that we should use this file to globally ignore files.
     - Ignore all the checkboxes
 2. Once the repository is set up, copy the SSH link to your clipboard.
 
-<CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_19.png" />
+
 
 1. Create a folder to hold all your codeup work and switch to it
     - Open up your terminal
@@ -1910,7 +1910,7 @@ Now we can tell git that we should use this file to globally ignore files.
     - Paste the SSH git address of your repository (`command V`)
     - Hit enter
     
-    <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_20.png" />
+    
     
 3. Verify that the repo was cloned down
     - Run `ls`
@@ -2018,7 +2018,7 @@ Congratulations! You've made a repository, done work, added, committed, and push
 8. In your browser, refresh your `Hello_World` repository page.
     - Click the icon that shows the number of commits in this repository
     
-    <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_21.png" />
+    
     
 9. Compare the results of your terminal's `git log` with what GitHub shows.
 
@@ -2033,7 +2033,7 @@ Let's setup an existing repository from GitHub on a local device
 5. Let's simulate restoring your work from GitHub.
     - Inside of GitHub, click Code and then copy the SSH git clone address to your clipboard.
     
-    <CldImage src="codedown/Fundamentals/Data-Science/Intro/Untitled_22.png" />
+    
     
     - From `~/codeup-data-science`, type `git clone`, space, and then paste the ssh clone address.
     - Now type `ls -la`. Do you see a new local copy of the repo?
