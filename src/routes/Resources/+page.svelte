@@ -1,3 +1,4 @@
+<!-- Resources/+page.svelte -->
 <script>
 	import PdfViewer from 'svelte-pdf';
 </script>
