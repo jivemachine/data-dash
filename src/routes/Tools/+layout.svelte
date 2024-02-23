@@ -22,10 +22,17 @@
                             <summary>SQL</summary>
                             <ul>
                                 <li><a href="/Tools/SQL/Overview">Overview</a></li>
-                                <!-- <li><a href="/Tools/SQL/DS-Vocabulary">Data Science Vocabulary</a></li> -->
-                                <!-- <li><a href="/Tools/SQL/Pipeline">The Data Science Pipeline</a></li> -->
-                                <!-- <li><a href="/Tools/SQL/Pipeline-Demo">Pipeline Demo</a></li> -->
-                                <!-- <li><a href="/Tools/SQL/Project">Project</a></li> -->
+                                <li><a href="/Tools/SQL/Introduction">Introduction</a></li>
+                                <li><a href="/Tools/SQL/Databases_&_Tables">Databases & Tables</a></li>
+                                <details open>
+                                    <summary>Clauses</summary>
+                                    <ul>
+                                        <li><a href="/Tools/SQL/Clauses/Where_Advanced">Where Advanced</a></li>
+                                        <li><a href="/Tools/SQL/Clauses/Order_By">Order By</a></li>
+                                        <li><a href="/Tools/SQL/Clauses/Limit">Limit</a></li>
+                                    </ul>
+                                </details>
+                                <li><a href="/Tools/SQL/Functions">Functions</a></li>
                             </ul>
                         </details>
                     {:else}

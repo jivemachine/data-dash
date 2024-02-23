@@ -1,4 +1,4 @@
-
+<!-- +page.svelte -->
 <script>
 	import { fade, fly } from 'svelte/transition';
 	import { elasticOut } from 'svelte/easing';
